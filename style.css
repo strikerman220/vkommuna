@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    position: relative;
+    
     background: rgba(135, 13, 13, 0.91);
     
     z-index: 0;
@@ -10,11 +10,13 @@ header{
 }
 img{
     z-index: 1;
-    position: absolute;
+    
     width: 417px;
     height: 408px;
-    left: 749px;
-    top: 200px;
+    z-index: 1;
+    margin:  10% 39%;
+    width: 417px;
+    height: 408px;
     background-image: url('pngwing 13.png');
 }
 p{
