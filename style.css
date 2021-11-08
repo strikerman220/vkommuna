@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    position: relative;
+    background: rgba(135, 13, 13, 0.91);
+    
+    z-index: 0;
+}
+header{
+    height: 608px;
+}
+img{
+    z-index: 1;
+    position: absolute;
+    width: 417px;
+    height: 408px;
+    left: 749px;
+    top: 200px;
+    background-image: url('pngwing 13.png');
+}
+p{
+    
+    margin-left: 41%;
+    
+    height: 66px;
+    
+
+    
+    
+    
+    font-size: 36px;
+    
+
+
+    color: #FFE600;
+}
+.block h1{
+    margin-left: 10px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    color: #FFE600;
+    
+    
+}
+.block div{
+    width: 5px;
+    height: 5px;
+    border-radius: 3px;
+
+    margin-left: 10px;
+    
+    
+    top: 67px;
+    background-color: #FFE600;
+}
+.div1{
+    opacity: 1;
+    margin-left: 3px;
+    animation: tochka1 2s linear infinite;
+}
+.div2{
+    opacity: 0;
+    margin-left: 3px;
+    animation: tochka2 1s linear infinite;
+}
+.div3{
+    opacity: 0;
+    margin-left: 3px;
+    animation: tochka3 1s linear infinite;
+}
+
+.div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.block{
+    width: 50px;
+    height: 70px;
+    position: relative;
+    margin: 67px 0;
+    display: flex;
+    flex-direction: row;
+}
+@keyframes tochka1{
+    0%{
+        
+        opacity: 1;
+        
+        
+    }
+    30%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes tochka2{
+    0%{
+        
+        opacity: 0;
+        
+        
+    }
+    30%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+
+} 
+@keyframes tochka3{
+    0%{
+        
+        opacity: 0;
+    
+    
+    }
+    30%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
