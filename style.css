@@ -1,20 +1,22 @@
 body{
+    width: 100wh;
+    height: 100vh;
     margin: 0;
-    
+    position: relative;
     background: rgba(135, 13, 13, 0.91);
     
     z-index: 0;
 }
 header{
-    widtgt: 100wh;
-    height: 608px;
+    height: 70%;
 }
 img{
-   
     z-index: 1;
-    margin:  10% 39%;
+    position: absolute;
     width: 417px;
     height: 408px;
+    left: 39%;
+    top: 20%;
     background-image: url('pngwing 13.png');
 }
 p{
